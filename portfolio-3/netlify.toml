@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE" # Replace with your actual API key in Netlify UI
+
+
